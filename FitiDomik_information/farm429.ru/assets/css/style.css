@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --border-color: #dee2e6;
+    --navbar-bg: #0d6efd;
+    --navbar-text: #ffffff;
+    --card-bg: #ffffff;
+    --footer-bg: #f8f9fa;
+}
+[data-theme="dark"] {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #212529;
+    --text-color: #f8f9fa;
+    --border-color: #495057;
+    --navbar-bg: #0d6efd;
+    --navbar-text: #ffffff;
+    --card-bg: #2c3034;
+    --footer-bg: #212529;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    color: var(--navbar-text) !important;
+}
+.footer {
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--border-color);
+    margin-top: auto;
+    color: var(--text-color);
+}
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+.form-control {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+.form-control:focus {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: var(--primary-color);
+}
+.table {
+    color: var(--text-color);
+}
+.modal-content {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.dropdown-menu {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+}
+.dropdown-item {
+    color: var(--text-color);
+}
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.btn-outline-light {
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+.btn-outline-light:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+.text-muted {
+    color: var(--text-color) !important;
+    opacity: 0.7;
+} 

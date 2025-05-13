@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>ФитоДомик</ShortName>
+    <Description>Умная мини-ферма для выращивания растений</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="16" height="16" type="image/x-icon">/icon/favicon.ico</Image>
+    <Image width="64" height="64" type="image/png">/icon/favicon-32x32.png</Image>
+    <Url type="text/html" template="https://farm429.ru/search?q={searchTerms}"/>
+</OpenSearchDescription> 

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /pages/
+Allow: /assets/
+Allow: /icon/
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /uploads/
+Disallow: /@instruction/
+Sitemap: https://farm429.ru/sitemap.xml 

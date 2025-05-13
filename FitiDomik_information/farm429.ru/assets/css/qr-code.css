@@ -1,0 +1,16 @@
+[data-theme="light"] .qr-light {
+    display: block !important;
+}
+[data-theme="light"] .qr-dark {
+    display: none !important;
+}
+[data-theme="dark"] .qr-light {
+    display: none !important;
+}
+[data-theme="dark"] .qr-dark {
+    display: block !important;
+}
+.qr-code-wrapper {
+    display: flex;
+    justify-content: center;
+}
